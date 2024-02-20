@@ -1,0 +1,24 @@
+*{
+  font-size:  110%;
+      font-family: 'Audiowide', cursive;
+}
+
+#co{
+background: rgba(255, 255, 255, 1); border-radius:40px; padding-left:20px;padding-right:20px;
+}
+content.active,content:hover {
+background:none;
+color: #0082e6;
+}
+body{
+    font-family: 'outfit';
+    background: #ffdad5;
+}
+#ct{
+text-align:center;
+}
+.content{
+  color:#a363aa;
+}
+
+

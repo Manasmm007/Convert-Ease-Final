@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'outfit';
+    background: linear-gradient(#ffdad5,#fff7f9);
+}
+.contact-container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #060606;
+    border-radius: 10px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+.contact-inputs:focus{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0;
+}
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+}
+.contact-left button img{
+    height: 15px;
+}
+.contact-right img{
+    width: 500px;
+}
+@media (max-width:800px){
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+}
+.contact-detail span {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-detail span a {
+    font-size: 20px;
+    padding: 6px 12px;
+    color: #000;
+    border-radius: 50%;
+    margin: 0px 5px;
+  }
+  .contact-detail span .fb {
+    color: #3b5998;
+    border: 3px solid #3b5998;
+  }
+  .contact-detail span .fb:hover {
+    color: #fff;
+    background-color: #3b5998;
+  }
+  
+  .contact-detail span .insta {
+    color: #833ab4;
+    border: 3px solid #833ab4;
+  }
+  .contact-detail span .insta:hover {
+    color: #fff;
+    background-color: #833ab4;
+  }
+  
+  .contact-detail span .twitter {
+    color: #00acee;
+    border: 3px solid #00acee;
+  }
+  .contact-detail span .twitter:hover {
+    color: #fff;
+    background-color: #00acee;
+  }
